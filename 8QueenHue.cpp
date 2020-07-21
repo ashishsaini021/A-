@@ -3,7 +3,7 @@
 using namespace std;
 int falseCount(int arr[8][8],int row,int column){
     int cnt=0;
-    //vartical
+    //vertical
     for(int i=0;i<8;i++){
         if(arr[i][column]==1){
             cnt++;
@@ -55,9 +55,7 @@ void Queen8(int arr[8][8]){
                 row=i;
                 column=j;
             }
-            //cout<<cnt1<<"  ";
         }
-        //cout<<"\n";
         arr[row][column]=1;
         row=i+1;
         column=0;
