@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 struct compareCost {    
 	bool operator()(vector<int> p1,vector<int>  p2) 
 	{ 
@@ -16,7 +15,6 @@ int checkGoal(vector<int> state,int InitialState)
 	return 0 ;
 
 }
-
 
 int main()
 {
@@ -81,9 +79,7 @@ int main()
 			if(sol[sol.size()-1] + sol[sol.size()-2]>top[top.size()-1] + top[top.size()-2])
 				sol=top;
 
-
 		}
-
 
 		int max=0,maxi=0;
 		for(int i=0;i<top.size()-2;i++)
@@ -102,7 +98,6 @@ int main()
 				int gn=top[top.size()-1]+pathCost[maxi][i];
 
 				int hn=minpath*(NoofCity-max-1)+pathCost[maxi][i];
-
 
 				if(pathCost[i][maxi]>0)
 				{
@@ -124,7 +119,7 @@ int main()
 
 		if(countvisit==0 && max<top.size()-1)
 		{
-
+			
 			int gn=top[top.size()-1]+pathCost[maxi][InitialState];
 			int hn=minpath*(NoofCity-max-1)+pathCost[maxi][InitialState];
 			vector<int> tmp=top;
