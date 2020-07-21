@@ -6,6 +6,8 @@
 To Compile :- g++ 8QueenHue.cpp  
 Run ./a.out  
 NO INPUT IS REQIRED.  
+Output:-  
+Program returns 8X8 matrix showing position of Queens by "1" on a 8X8 board.  
 
 State Space:- An 8X8 matrix with any arrangement of 8 queens, and only one queen in a row.  
 Initial State:- No queen is on board.  
