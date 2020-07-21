@@ -4,7 +4,7 @@
 ## 8 Queen
 
 To Compile :- g++ 8QueenHue.cpp  
-Run ./a.out
+Run ./a.out  
 NO INPUT IS REQIRED.  
 
 State Space:- An 8X8 matrix with any arrangement of 8 queens, and only one queen in a row.  
