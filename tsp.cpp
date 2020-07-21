@@ -39,7 +39,7 @@ int main()
 	}
 
 	int InitialState;
-	cout<<"Enter the initial State: ";
+	cout<<"Enter the initial City: ";
 	cin>>InitialState;
 
 	vector<int> State;
